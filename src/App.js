@@ -50,7 +50,7 @@ const App = () => {
         <button style={{color:'white',background:'green'}} type="submit">Search</button>
       </form>
 
-      {loading && <p>Loading data…</p>}
+      {loading && <p>Loading data...</p>}
 
       {error && <p className="error">{error}</p>}
 
